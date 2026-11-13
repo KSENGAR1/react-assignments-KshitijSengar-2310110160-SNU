@@ -1,0 +1,14 @@
+body { margin: 0; font-family: "Times New Roman", serif; color: #111; }
+.app { padding: 20px 24px; }
+h1 { text-align: center; margin: 0 0 24px; }
+.photo { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.photo img { width: 200px; height: 125px; object-fit: cover; background: #eee; display: block; }
+.like { background: none; border: 0; cursor: pointer; font-size: 22px; color: #1a73e8; display: inline-flex; align-items: center; gap: 6px; padding: 4px; }
+.like:hover { transform: scale(1.12); }
+.like:active { transform: scale(0.95); }
+.count { font-size: 16px; color: #111; font-family: inherit; }
+.status { text-align: center; padding: 20px; min-height: 40px; }
+.error { color: #c0392b; }
+@media (max-width: 480px) { .photo img { width: 140px; height: 90px; } }
+.banner { background: #fff4e5; color: #8a5200; border: 1px solid #ffd8a8; border-radius: 6px; padding: 8px 12px; margin: 0 0 20px; font-size: 14px; }
+.banner button { cursor: pointer; }
